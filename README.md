@@ -1,0 +1,9 @@
+server.port=8084
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url= jdbc:postgresql://localhost:5432/kanban
+spring.datasource.username=postgres
+spring.datasource.password=root
+spring.jpa.properties.hibernate.format_sql=true
+spring.datasource.driver-class-name= org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql= true
