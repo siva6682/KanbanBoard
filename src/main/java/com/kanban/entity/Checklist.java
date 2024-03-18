@@ -25,4 +25,12 @@ public class Checklist {
     public void setLocation(String location) {
         this.location = location;
     }
+
+    @Override
+    public String toString() {
+        return "Checklist{" +
+                "name='" + name + '\'' +
+                ", location='" + location + '\'' +
+                '}';
+    }
 }
