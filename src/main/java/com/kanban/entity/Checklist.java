@@ -26,11 +26,5 @@ public class Checklist {
         this.location = location;
     }
 
-    @Override
-    public String toString() {
-        return "Checklist{" +
-                "name='" + name + '\'' +
-                ", location='" + location + '\'' +
-                '}';
-    }
+  
 }
